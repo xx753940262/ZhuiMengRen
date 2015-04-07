@@ -1,0 +1,3 @@
+include ':app', ':library-pulltorefresh', ':library-slidingmenu'
+project(':library-pulltorefresh').projectDir = new File('libraries/library-pulltorefresh')
+project(':library-slidingmenu').projectDir = new File('library-slidingmenu')
