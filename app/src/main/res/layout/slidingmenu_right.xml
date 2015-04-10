@@ -10,7 +10,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="52dp"
-        android:src="@drawable/biz_pc_main_info_profile_avatar_bg_dark" />
+        android:src="@drawable/qr_scanner" />
 
     <TextView
         android:id="@+id/textView1"
@@ -19,7 +19,7 @@
         android:layout_below="@+id/imageView1"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="22dp"
-        android:text="立刻登陆"
+        android:text="点击扫描二维码"
         android:textSize="25sp"
         android:textColor="#ffffffff" />
 

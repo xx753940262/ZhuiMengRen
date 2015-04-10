@@ -1,3 +1,4 @@
-include ':app', ':library-pulltorefresh', ':library-slidingmenu'
+include ':app', ':library-pulltorefresh', ':library-slidingmenu', ':library-Zxing'
 project(':library-pulltorefresh').projectDir = new File('libraries/library-pulltorefresh')
 project(':library-slidingmenu').projectDir = new File('library-slidingmenu')
+project(':library-Zxing').projectDir = new File('library-Zxing')

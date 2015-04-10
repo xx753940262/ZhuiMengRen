@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ZhuiMengRen.iml" filepath="$PROJECT_DIR$/ZhuiMengRen.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-Zxing/library-Zxing.iml" filepath="$PROJECT_DIR$/library-Zxing/library-Zxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/library-pulltorefresh/library-pulltorefresh.iml" filepath="$PROJECT_DIR$/libraries/library-pulltorefresh/library-pulltorefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-slidingmenu/library-slidingmenu.iml" filepath="$PROJECT_DIR$/library-slidingmenu/library-slidingmenu.iml" />
     </modules>

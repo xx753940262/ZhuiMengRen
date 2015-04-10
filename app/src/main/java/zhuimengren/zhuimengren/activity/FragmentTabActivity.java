@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -40,6 +41,7 @@ public class FragmentTabActivity extends BaseActivity implements OnClickListener
         ((TextView) findViewById(R.id.tvTag2)).setOnClickListener(this);
         ((TextView) findViewById(R.id.tvTag3)).setOnClickListener(this);
         ((RelativeLayout) slidingMenu.findViewById(R.id.setting_btn)).setOnClickListener(this);
+        ((ImageView) slidingMenu.findViewById(R.id.imageView1)).setOnClickListener(this);
     }
 
 
@@ -65,6 +67,10 @@ public class FragmentTabActivity extends BaseActivity implements OnClickListener
                 Intent intent = new Intent(FragmentTabActivity.this, SettingsActivity.class);
                 startActivity(intent);
                 this.overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+                break;
+            case R.id.imageView1:
+                Intent intent1 = new Intent(FragmentTabActivity.this, com.zxing.android.CaptureActivity.class);
+                startActivity(intent1);
                 break;
         }
     }

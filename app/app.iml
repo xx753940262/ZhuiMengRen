@@ -92,6 +92,7 @@
     <orderEntry type="library" exported="" name="support-annotations-21.0.3" level="project" />
     <orderEntry type="library" exported="" name="commons-httpclient-3.1" level="project" />
     <orderEntry type="module" module-name="library-pulltorefresh" exported="" />
+    <orderEntry type="module" module-name="library-Zxing" exported="" />
     <orderEntry type="module" module-name="library-slidingmenu" exported="" />
   </component>
 </module>
