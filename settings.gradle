@@ -1,4 +1,5 @@
-include ':app', ':library-pulltorefresh', ':library-slidingmenu', ':library-Zxing'
+include ':app', ':library-pulltorefresh', ':library-slidingmenu', ':library-Zxing', ':library-youtui'
 project(':library-pulltorefresh').projectDir = new File('libraries/library-pulltorefresh')
 project(':library-slidingmenu').projectDir = new File('library-slidingmenu')
 project(':library-Zxing').projectDir = new File('library-Zxing')
+project(':library-youtui').projectDir = new File('library-youtui')

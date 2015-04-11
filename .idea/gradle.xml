@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/libraries/library-pulltorefresh" />
             <option value="$PROJECT_DIR$/library-Zxing" />
             <option value="$PROJECT_DIR$/library-slidingmenu" />
+            <option value="$PROJECT_DIR$/library-youtui" />
           </set>
         </option>
       </GradleProjectSettings>

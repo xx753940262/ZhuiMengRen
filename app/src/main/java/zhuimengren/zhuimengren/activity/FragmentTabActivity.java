@@ -42,6 +42,7 @@ public class FragmentTabActivity extends BaseActivity implements OnClickListener
         ((TextView) findViewById(R.id.tvTag3)).setOnClickListener(this);
         ((RelativeLayout) slidingMenu.findViewById(R.id.setting_btn)).setOnClickListener(this);
         ((ImageView) slidingMenu.findViewById(R.id.imageView1)).setOnClickListener(this);
+        ((TextView) slidingMenu.findViewById(R.id.share)).setOnClickListener(this);
     }
 
 
@@ -71,6 +72,10 @@ public class FragmentTabActivity extends BaseActivity implements OnClickListener
             case R.id.imageView1:
                 Intent intent1 = new Intent(FragmentTabActivity.this, com.zxing.android.CaptureActivity.class);
                 startActivity(intent1);
+                break;
+            case R.id.share:
+                Intent intentshare = new Intent(FragmentTabActivity.this, cn.bidaround.youtui.MainActivity.class);
+                startActivity(intentshare);
                 break;
         }
     }

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/library-Zxing/library-Zxing.iml" filepath="$PROJECT_DIR$/library-Zxing/library-Zxing.iml" />
       <module fileurl="file://$PROJECT_DIR$/libraries/library-pulltorefresh/library-pulltorefresh.iml" filepath="$PROJECT_DIR$/libraries/library-pulltorefresh/library-pulltorefresh.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-slidingmenu/library-slidingmenu.iml" filepath="$PROJECT_DIR$/library-slidingmenu/library-slidingmenu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library-youtui/library-youtui.iml" filepath="$PROJECT_DIR$/library-youtui/library-youtui.iml" />
     </modules>
   </component>
 </project>
