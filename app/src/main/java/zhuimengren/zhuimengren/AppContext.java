@@ -7,6 +7,8 @@ import android.content.pm.PackageManager;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
+import com.baidu.mapapi.SDKInitializer;
+
 import java.util.Properties;
 import java.util.UUID;
 
@@ -25,8 +27,11 @@ public class AppContext extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        //在使用SDK各组件之前初始化context信息，传入ApplicationContext
+        //注意该方法要再setContentView方法之前实现
+        SDKInitializer.initialize(this);
         //注册App异常崩溃处理器
-        Thread.setDefaultUncaughtExceptionHandler(AppException.getAppExceptionHandler());
+//        Thread.setDefaultUncaughtExceptionHandler(AppException.getAppExceptionHandler());
     }
 
     /**
